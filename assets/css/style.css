@@ -46,5 +46,7 @@ Nav .menu {
     background: white;
     color: black;
 }
-
+.menu ul {
+    display: inline-flex;
+}
 
