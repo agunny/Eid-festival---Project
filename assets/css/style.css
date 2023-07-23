@@ -12,8 +12,9 @@
     background: #fff;
 }
 
+/* menu */
 nav {
-    position: fixed;
+    position: absolute;
     background: rgba(118, 185, 240, 0.5);
     width: 100%;
     padding: 10px 0;
@@ -63,7 +64,7 @@ nav .menu {
     background: #fff;
     color: black;
 }
-
+/* background image */
 .img {
     background: url("/assets/images/Hero-Image.png") no-repeat;
     width: 100%;
@@ -131,4 +132,52 @@ nav .menu {
 .buttons button:hover {
     background: white;
     color: black;
+}
+
+/* More section */
+
+.section-more {
+    text-align: center;
+}
+.row {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.row p {
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background: rgba(118, 185, 240, 0.5);
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social li {
+    margin right: 1em;
+}
+socials a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+footer p {
+    font-size: .85em;
+    text-align: center;
+    color: white;
 }
