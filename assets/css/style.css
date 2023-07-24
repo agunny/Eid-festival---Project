@@ -168,6 +168,16 @@ nav .menu {
     transition: all 0.4s ease;
 }
 
+.bgi-time {
+    background-image: url("../images/Stage-kids.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px;
+    border: 25px;
+    border-radius: 25px;
+}
+
 /* Rides and pictures*/
 
 .rides {
@@ -214,7 +224,7 @@ footer {
     text-decoration: none;
     color: #fff;
     padding-right: 15px;
-    padding-top: 2em;
+    margin: 25px;
 }
 footer p {
     text-align: auto;
@@ -224,5 +234,9 @@ footer p {
     margin: auto;
     width: 25%;
     max-width: 6em;
-    padding-bottom: 3em;
+    padding-bottom: em;
+}
+.socials a:hover {
+    color: green;
+    transition: all 0.4s ease;
 }
