@@ -15,7 +15,6 @@
 /* menu */
 nav {
     position: absolute;
-    background: rgba(118, 185, 240, 0.5);
     width: 100%;
     padding: 10px 0;
     z-index: 100;
@@ -202,7 +201,7 @@ nav .menu {
 
 /* footer */
 footer {
-    background: rgb(118, 185, 240);
+    background: rgb(118, 185, 240, 0.8);
 }
 .socials {
     display: flex;
@@ -250,3 +249,57 @@ footer p {
 }
 
 /*Contact us form*/
+
+
+ .img-contact {
+     background: url("/assets/images/Contact-us-hero-image.png") no-repeat;
+     width: 100%;
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+ }
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: lightblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: blueviolet;
+}
+ 
