@@ -73,7 +73,6 @@ nav .menu {
     background-position: center;
     position: relative;
 }
-
 .img::before {
     content: "";
     position: absolute;
@@ -81,7 +80,6 @@ nav .menu {
     width: 100%;
     background: rgba(118, 185, 240, 0.5);
 }
-
 .center {
     position: absolute;
     top: 52%;
@@ -91,23 +89,19 @@ nav .menu {
     padding: 0 20px;
     text-align: center;
 }
-
 .center .title {
     color: #fff;
     font-size: 55px;
     font-weight: 600;
 }
-
 .center .subtitle {
     color: #fff;
     font-size: 52px;
     font-weight: 600;
 }
-
 .center .buttons {
     margin-top: 20px;
 }
-
 .center .buttons button {
     text-decoration: none;
     height: 55px;
@@ -123,17 +117,14 @@ nav .menu {
     outline: none;
     transition: all 0.3s ease;
 }
-
 .center .buttons button {
     color: #fff;
     background: none;
 }
-
 .buttons a {
     text-decoration: none;
     color: inherit;
 }
-
 .buttons button:hover {
     background: white;
     color: inherit;
@@ -166,7 +157,6 @@ nav .menu {
     color:green;
     transition: all 0.4s ease;
 }
-
 .bgi-time {
     background-image: url("../images/Stage-kids.png");
     background-size: cover;
@@ -175,6 +165,39 @@ nav .menu {
     margin: 50px;
     border: 25px;
     border-radius: 25px;
+}
+
+/* Welcome Article */
+
+.welcome-main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+}
+.welcome-left {
+    float: left;
+    width: 30%;
+    Margin-right: 5%;
+    margin-left: 15%;
+    text-align: center;
+}
+.welcome-right {
+    float: right;
+    width: 30%;
+    Margin-right: 15%;
+    margin-left: 5%;
+    text-align: center;
+}
+.welcome-bottom {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
 }
 
 /* Rides and pictures*/
@@ -237,8 +260,7 @@ footer p {
 /* Photos page*/
  .ridespace {
     margin: 1em;
- }
-
+}
  .img-photos {
      background: url("/assets/images/Pictures-hero-image.png") no-repeat;
      width: 100%;
@@ -264,7 +286,6 @@ footer p {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 .contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -273,16 +294,13 @@ footer p {
 label {
     color: white;
 }
-
 .contact-form form {
     display: flex;
     flex-direction: column;
 }
-
 .contact-form label {
     margin-bottom: 5px;
 }
-
 .contact-form input,
 .contact-form textarea {
     padding: 8px;
@@ -290,17 +308,14 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
 .contact-form textarea {
     resize: vertical;
 }
-
 .contact-form input[type="submit"] {
     background-color: #76B9F0;
     color: #fff;
     cursor: pointer;
 }
-
 .contact-form input[type="submit"]:hover {
     background-color: #F0AD76;
     transition: all 0.4s ease;
