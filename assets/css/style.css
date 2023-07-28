@@ -132,12 +132,24 @@ nav .menu {
 
 /* More section */
 
+.img-about {
+    background: url("/assets/images/About-us.png") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 .section-more {
     text-align: center;
 }
 .row {
     margin-top: 2em;
     margin-bottom: 2em;
+    padding: 3%;
+}
+.Row>h1 {
+    font-size:4em;
 }
 
 /* time and date*/
@@ -154,7 +166,7 @@ nav .menu {
     color: black;
 }
 .time a:hover {
-    color:green;
+    color:#F0AD76;
     transition: all 0.4s ease;
 }
 .bgi-time {
@@ -200,11 +212,56 @@ nav .menu {
     text-align: center;
 }
 
+/* stage show*/
+
+.stage {
+    background: url("/assets/images/staqe-fire.jpg") no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    opacity: 0.6;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+
+}
+
+.event {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: .5em;
+}
+
+/*Day-plan*/
+
+.day-plan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+}
+.bazaar {
+    background-image: url("../images/Bazaar.jpg") no-repeat center center;
+
+}
+
+
+.DPgrid {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+}
+
 /* Rides and pictures*/
 
 .rides {
     text-align: center;
-    font-size: 4em;
+    padding-top: 4%;
+    background-color: #F0AD76;
 }
 .ridephotos {
     display: grid;
@@ -253,14 +310,11 @@ footer p {
     padding-bottom: em;
 }
 .socials a:hover {
-    color: green;
+    color: #F0AD76;
     transition: all 0.4s ease;
 }
 
 /* Photos page*/
- .ridespace {
-    margin: 1em;
-}
  .img-photos {
      background: url("/assets/images/Pictures-hero-image.png") no-repeat;
      width: 100%;
