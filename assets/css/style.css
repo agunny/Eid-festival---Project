@@ -339,6 +339,22 @@ label {
     transition: all 0.4s ease;
 }
 
+/*Terms and Conditions*/
+
+.terms {
+    text-align: center;
+    margin: 90vh;
+
+    
+
+}
+
+.column1 {
+    flex: 50%;
+
+}
+
+
 /* footer */
 footer {
     background: rgb(118, 185, 240, 1);
