@@ -18,6 +18,7 @@ nav {
     width: 100%;
     padding: 10px 0;
     z-index: 100;
+    overflow: hidden;
 }
 
 nav .menu {
@@ -231,7 +232,7 @@ nav .menu {
     font-size: 55px;
     font-weight: 600;
     text-align: center;
-    padding-top: .5em;
+    padding-top: 1em;
 }
 
 /*Day-plan*/
@@ -241,19 +242,16 @@ nav .menu {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
     
 }
-.bazaar {
-    background-image: url("../images/Bazaar.jpg") no-repeat center center;
-
-}
-
 
 .DPgrid {
     text-align: center;
     padding: 20px;
     width: 90%;
+    align-items: center;    
+    position: center;
 }
 
 /* Rides and pictures*/
@@ -279,41 +277,6 @@ nav .menu {
     transform: scale(1.2);
 }
 
-/* footer */
-footer {
-    background: rgb(118, 185, 240, 1);
-}
-.socials {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    list-style-type: none;
-}
-.social li {
-    margin-right: 1em;
-}
-.socials a {
-    font-size: 2em;
-    text-decoration: none;
-    color: #fff;
-    padding-right: 15px;
-    margin: 25px;
-}
-footer p {
-    text-align: auto;
-    color: white;
-}
-.frow {
-    margin: auto;
-    width: 25%;
-    max-width: 6em;
-    padding-bottom: em;
-}
-.socials a:hover {
-    color: #F0AD76;
-    transition: all 0.4s ease;
-}
-
 /* Photos page*/
  .img-photos {
      background: url("/assets/images/Pictures-hero-image.png") no-repeat;
@@ -335,8 +298,9 @@ footer p {
  }
 .contact-form {
     max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
+    max-height: 85vh;
+    margin: 50px auto auto auto;
+    padding: 0px 15px 15px 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -374,4 +338,44 @@ label {
     background-color: #F0AD76;
     transition: all 0.4s ease;
 }
- 
+
+/* footer */
+footer {
+    background: rgb(118, 185, 240, 1);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+}
+
+.social li {
+    margin-right: 1em;
+}
+
+.socials a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 15px;
+    margin: 25px;
+}
+
+footer p {
+    text-align: auto;
+    color: white;
+}
+
+.frow {
+    margin: auto;
+    width: 25%;
+    max-width: 6em;
+    padding-bottom: em;
+}
+
+.socials a:hover {
+    color: #F0AD76;
+    transition: all 0.4s ease;
+}
