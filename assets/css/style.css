@@ -95,13 +95,13 @@ nav .menu {
 
 .center .title {
     color: #fff;
-    font-size: 55px;
+    font-size: clamp(1rem, 1rem + 5vw , 5rem);
     font-weight: 600;
 }
 
 .center .subtitle {
     color: #fff;
-    font-size: 52px;
+    font-size: clamp(.5rem, 1rem + 5vw, 5rem);
     font-weight: 600;
 }
 
