@@ -1,39 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+The eid festival
 
-Welcome,
+Being part of the eid festival management team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has work for the past 2 years however we are growing in popularity and as being the biggest eid festival in recent years in South Yorkshire. Recently starting our own instagram page and advertising with our charity partner Families Relief, there are certain elements are lacking but are currently looking into. We aim to be a non-profit therefore we rely heavily on sponsors and stall the upfront costs of the first 1-2 have been immense.Buying gazebos and miscelanious items that we can reuse are always a burden but the cost of the rides are something unavoidable and is 75% of our costs. 
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Since we have no official website, I decided that my project should be to create a website that reflects our efforts to advertise to the local community and give a place for potential storeholders to register their interests. With the team, I went through ideas of my own and did some research as to what other people have done in the past.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Websites examples from other similar organisations:
 
-## Codeanywhere Reminders
+https://eidinbedford.co.uk/eid/
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+https://www.londoneid.com/
 
-`python3 -m http.server`
+https://eidinthepark.org.uk/
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+We wanted something that shows what we are doing and how families of all sizes and ages can come along and have fun, catering to as may people as we can. Most imporantly, we wanted to show the turnout on the day for everyone to see and somewhere people can get in contact with us first and we can then break things down further as before we were having to use personal numbers and word of mouth to get into contact with us.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
