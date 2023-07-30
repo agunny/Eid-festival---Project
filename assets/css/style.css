@@ -151,6 +151,12 @@ nav .menu {
     position: relative;
 }
 
+.map {
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+
 .section-more {
     text-align: center;
 }
@@ -169,7 +175,7 @@ nav .menu {
 
 .time {
     text-align: center;
-    font-size: 4em;
+    font-size: clamp(1rem, 1rem + 5vw, 5rem);
 }
 
 .map iframe {
@@ -210,16 +216,16 @@ nav .menu {
 
 .welcome-left {
     float: left;
-    width: 30%;
+    width: 40%;
     Margin-right: 5%;
-    margin-left: 15%;
+    margin-left: 5%;
     text-align: center;
 }
 
 .welcome-right {
     float: right;
-    width: 30%;
-    Margin-right: 15%;
+    width: 40%;
+    Margin-right: 5%;
     margin-left: 5%;
     text-align: center;
 }
@@ -249,30 +255,28 @@ nav .menu {
 
 .event {
     color: #fff;
-    font-size: 55px;
+    font-size: clamp(1rem, 1rem + 5vw, 5rem);
     font-weight: 600;
     text-align: center;
-    padding-top: 1em;
 }
 
 /*Day-plan*/
 
-.day-plan {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-
-}
-
-.DPgrid {
+.cards-col {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
     text-align: center;
-    padding: 20px;
-    width: 90%;
-    align-items: center;
-    position: center;
+    margin-right: 15%;
+    margin-left: 15%;
 }
+
+.cards-col > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
 
 /* Rides and pictures*/
 
@@ -403,6 +407,10 @@ footer {
     color: #fff;
     padding-right: 15px;
     margin: 25px;
+}
+
+footer {
+    overflow: hidden;
 }
 
 footer p {
