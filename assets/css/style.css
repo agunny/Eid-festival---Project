@@ -225,6 +225,33 @@ nav .menu {
         text-align: center;
 
     }
+    .center .title {
+    color: #fff;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 600;
+    }
+    
+    .center .subtitle {
+    color: #fff;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 600;
+    }
+
+    .center .buttons a {
+    text-decoration: none;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    }
+
 }
 
 /* More section */
@@ -241,7 +268,15 @@ nav .menu {
 .map {
     width: 100%;
     height: auto;
-    overflow: scroll;
+    overflow: none;
+}
+
+@media (max-width: 425px) {
+    .map {
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
 }
 
 .section-more {
@@ -422,7 +457,7 @@ nav .menu {
 
 /*Photos page*/
 .img-photos {
-    background: url("/assets/images/Pictures-hero-image.png") no-repeat;
+    background: url("../images/Pictures-hero-image.png") no-repeat;
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -445,7 +480,7 @@ nav .menu {
 
 /*Contact us form*/
 .img-contact {
-    background: url("/assets/images/Contact-us-hero-image.png") no-repeat;
+    background: url("../assets/images/Contact-us-hero-image.png") no-repeat;
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -505,13 +540,14 @@ label {
 }
 
 @media (max-width: 340px) {
+
     .contact-form input,
-        .contact-form textarea {
-            padding: 4px;
-            margin-bottom: 5px;
-            border: 1px solid #ccc;
-            border-radius: 2px;
-        }
+    .contact-form textarea {
+        padding: 4px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+    }
 }
 
 /*Terms and Conditions*/
