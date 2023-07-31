@@ -38,6 +38,9 @@ Highlighting when hovering over adds to the user experience by adding a layer of
 
 Switching to a drop down menu, still following the same layout and animation when screen horizontal pixels changes to below 600px.
 
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/6ad54581-3ab7-4b6b-98d9-cfd003851212)
+
+
 **Header**
 
 Header font changes with the resolution of the screen to avoid the text becoming too large for the screen.
