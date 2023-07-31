@@ -31,9 +31,8 @@ nav .menu {
 }
 
 
-
 .checkbtn {
-    font-size: 30px;
+    font-size: 45px;
     color: white;
     float: right;
     line-height: 80px;
@@ -55,43 +54,53 @@ nav .menu {
     nav ul li a {
         font-size: clamp(.1rem, 1rem + 3vw, 3rem);
     }
-          .checkbtn {
-              display: block;
-          }
-    
-          ul {
-              position: fixed;
-              width: 100%;
-              height: 10vh;
-              background: rgb(56, 148, 223);
-              top: 120px;
-              left: -100%;
-              padding: 10px;
-              text-align: center;
-              transition: all .5s;
-              justify-content: center;
-          }
-    
-          nav ul li {
-              display: block;
-              margin: 20px 0;
-              line-height: 30px;
-          }
-    
-          nav ul li a {
-              font-size: clamp(.1rem, 1rem + 3vw, 3rem);
-          }
-    
-          a:hover,
-          a.active {
-              background: none;
-              color: #0082e6;
-          }
-    
-          #check:checked~ul {
-              left: 0;
-          }
-          
+
+    .checkbtn {
+        display: block;
+    }
+
+    #ddmenu {
+        position: fixed;
+        width: 100%;
+        min-height: 12vh;
+        background: rgb(56, 148, 223);
+        top: 120px;
+        left: -125%;
+        padding: 10px;
+        text-align: center;
+        transition: all .5s;
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
 }
 
 .menu .logo a {
@@ -115,7 +124,7 @@ nav .menu {
 .menu ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 5px;
@@ -157,7 +166,7 @@ nav .menu {
 
 .center .title {
     color: #fff;
-    font-size: clamp(1rem, 1rem + 5vw , 5rem);
+    font-size: clamp(1rem, 1rem + 5vw, 5rem);
     font-weight: 600;
 }
 
@@ -209,6 +218,7 @@ nav .menu {
         justify-content: center;
         align-items: center;
     }
+
     .center .button a {
         text-align: center;
 
@@ -237,10 +247,21 @@ nav .menu {
 }
 
 .row {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 3%;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1%;
 }
+
+@media (max-width: 600px) {
+    .row {
+        font-size: 18px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1%;
+    }
+}
+
 
 .Row>h1 {
     font-size: 4em;
@@ -347,7 +368,7 @@ nav .menu {
     margin-left: 5%;
 }
 
-.cards-col > * {
+.cards-col>* {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
@@ -381,6 +402,22 @@ nav .menu {
     transform: scale(1.15);
 }
 
+@media (max-width: 600px) {
+    .ridephotos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+
+    }
+
+    .ridephotos img {
+        margin-left: 5%;
+        margin-bottom: 5%;
+
+    }
+
+}
+
 /*Photos page*/
 .img-photos {
     background: url("/assets/images/Pictures-hero-image.png") no-repeat;
@@ -399,6 +436,7 @@ nav .menu {
     margin-left: 3%;
     margin-bottom: 3%;
 }
+
 .about-text h1 {
     padding: 25px;
 }
@@ -470,13 +508,15 @@ label {
     margin: 50px;
     text-align: center;
 }
+
 .conditions {
     padding: 15px;
 }
 
 /* footer */
 footer {
-    background: rgb(118, 185, 240, 1);
+    background: rgb(118, 185, 240);
+    min-height: 25vh;
 }
 
 .socials {
@@ -498,10 +538,6 @@ footer {
     margin: 25px;
 }
 
-footer {
-    overflow: hidden;
-}
-
 footer p {
     color: white;
 }
@@ -510,6 +546,7 @@ footer p {
     margin: auto;
     width: 25%;
     max-width: 6em;
+
 }
 
 .socials a:hover {
