@@ -132,7 +132,7 @@ nav .menu {
         color: #fff;
         font-size: 13px;
         font-weight: 500;
-        padding: 8px 15px;
+        padding: 8px 5px;
         border-radius: 5px;
         transition: all 0.3s ease;
     }
@@ -225,31 +225,32 @@ nav .menu {
         text-align: center;
 
     }
+
     .center .title {
-    color: #fff;
-    font-size: clamp(1rem, 2.5vw, 2rem);
-    font-weight: 600;
+        color: #fff;
+        font-size: clamp(1rem, 2.5vw, 2rem);
+        font-weight: 600;
     }
-    
+
     .center .subtitle {
-    color: #fff;
-    font-size: clamp(1rem, 2.5vw, 2rem);
-    font-weight: 600;
+        color: #fff;
+        font-size: clamp(1rem, 2.5vw, 2rem);
+        font-weight: 600;
     }
 
     .center .buttons a {
-    text-decoration: none;
-    height: 40px;
-    width: 130px;
-    border-radius: 5px;
-    border: none;
-    margin: 0 10px;
-    border: 2px solid white;
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s ease;
+        text-decoration: none;
+        height: 40px;
+        width: 130px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 10px;
+        border: 2px solid white;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
     }
 
 }
@@ -257,7 +258,7 @@ nav .menu {
 /* More section */
 
 .img-about {
-    background: url("../assets/images/About-us.png") no-repeat;
+    background: url("../images/About-us.png") no-repeat;
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -480,7 +481,7 @@ nav .menu {
 
 /*Contact us form*/
 .img-contact {
-    background: url("../assets/images/Contact-us-hero-image.png") no-repeat;
+    background: url("../images/Contact-us-hero-image.png") no-repeat;
     width: 100%;
     height: 100vh;
     background-size: cover;
