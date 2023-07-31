@@ -1,52 +1,79 @@
-![Logo](![Eid fest logo](https://github.com/agunny/Eid-festival---Project/assets/133648178/7bf87d1b-2497-4dae-a3eb-91e94274b78b)
-)
-
 # Sheffield Eid Festival 2023
 
-This is a static website which can be update which refresh photos to advertise and support the Eid Festival held in Sheffield twice a year. This will be to show potential stall holders and sponsors the amount of footfall for these events and for them to get into contact with us or just attend the event before committing. Also to show visitors what there is to offer before attending.
+This is a static website which can be updated which refresh photos to advertise and support the Eid Festival held in Sheffield twice a year. This will be to show potential stall holders and sponsors the amount of footfall for these events and for them to get into contact with us or just to attend the event before committing. Also to show our target audience, families, what there is to offer before attending.
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/1cabcb80-039a-4f7b-96d9-7ae4dd6b5be9)
 
 
-Being part of the Eid festival management team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has work for the past 2 years however we are growing in popularity and as being the biggest Eid festival in recent years in South Yorkshire. Recently starting our own Instagram page and advertising with our charity partner Families Relief, there are certain elements are lacking but are currently looking into. We aim to be a non-profit therefore we rely heavily on sponsors and stall the upfront costs of the first 1-2 have been immense. Buying gazebos and miscellaneous items that we can reuse are always a burden but the cost of the rides are something unavoidable and is 75% of our costs. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Background
+
+Being part of the Eid festival management team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has worked for the past 2 years however we are growing in popularity and as being the biggest Eid festival in recent years in South Yorkshire, we draw crowds from as far as Birmingham! Our Previous event saw in excess of 10,000 people attend.<br>
+Recently starting our own Instagram page and advertising with our charity partner Families Relief, there are certain elements are lacking but are currently looking into.<br>
 Since we have no official website, I decided that my project should be to create a website that reflects our efforts to advertise to the local community and give a place for potential store holders to register their interests. With the team, I went through ideas of my own and did some research as to what other people have done in the past.
 
-Websites examples from other similar organisations:
-
-<https://eidinbedford.co.uk/eid/>
-
-<https://www.londoneid.com/>
-
-<https://eidinthepark.org.uk/>
-
-We wanted something that shows what we are doing and how families of all sizes and ages can come along and have fun, catering to as many people as we can. Most importantly, we wanted to show the turnout on the day for everyone to see and somewhere people can get in contact with us first and we can then break things down further as before we were having to use personal numbers and word of mouth to get into contact with us.
+## Goals
+### Attract new business
+One of our ways of supporting the Eid Festival is to get local business to sponsor the events, with seeing the amount of footfall from previous events and the new spreading by word of mouth, having a centralised location where all the information and evidence is available means that everyone has a chance.
+### Bring the community together
+After Covid, normality was out the window. Eid fell just after the covid restrictions were lifted so we decided to do something to bring everyone together. Especially for the younger generation, in which the majority of their lives were revolving around masks and staying at home.
+### A day of fun for everyone
+We market this as the Eid Festival, however it's more of a family fun day for everyone, regardless of race, religion and age. One of the most infectious sights and sounds are young children laughing and having fun. It has a positive effect on everyone. It makes these events worth it to see everyone getting involved!
 
 
+Poster from previous event:<br>
+<img src="![Poster](https://github.com/agunny/Eid-festival---Project/assets/133648178/79db9da3-b974-4451-8fc2-f8cb51418086)
+" height="500" width="320" >
 
+## **Colours and Typography**
+Due to the previous designs of the posts and banners that we've used, it was already decided to use #76B9F0 has our main colour for background and overlays for images. Only white was text that would appear clearly on the foreground.
+The complementary colour tone being #FOAD76, making things that have been hovered over to change to that colour to keep it standing out and for the change to be noticeable:
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/050061da-d35a-4a2e-89aa-1d624fc6a4be)
 
-**Features**
+I chose to use poppins font as it was clean, modern and upon a glace, subtly styled.
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/38fc7f88-b088-44d8-af64-3d8c55858ed3)
 
-**General design scheme from posters.**
+## **Images**
+Since we've already got a decent stock of images from previous Eid Festival, I decided that using these images in the background, especially in the background, you can see many people. Flicking through the tabs there the general stalls, food stalls and rides in the background. Evidence of the amount of footfall at these events for potential future stall holders and sponsors. Add a blue overlay to these images to contiue with the theme of #76B9F0. Scrolling further through the site, there's more evidence of what's being provided in terms of children entertainment for our stage show. Filtering through and picking certain images as it shows a variety of people and children, all enjoying the shows on hand.<br>
+These images were all compressed using tingpng.com to maximise performance due to the high quality of the images.
 
+## **Features**
 
-**Navigation**
+### **Navigation**
 
-Our logo fixed to the top left as well as bottom middle in the foot, both of which are linked to the main page as generally when using a website, the logos are always linked back. The navigation bar reacting to being in mobile website was taken from:
+Our logo fixed to the top left as well as bottom middle in the foot, both of which are linked to the main page as generally when using a website, the logos are always linked back. Having a clean and simple design was a priority due to a mixed aged range of visitors on the days, I knew that a lot of grandparents bring their grandchildren, therefore I wanted something that was simple and easy to follow. However, having the navigation bar fixed at the top posed an issue when the screen sized changed. I knew the default answer was to have the items change into a drop down menu, therefore I used the channel below to style and address the issue:
 
-` `<https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal>
+<https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal>
 
-then adapted to fit the colour scheme of the website, Hex 76B9F0 being the official colour.
+This was adapted to fit the colour scheme of the website, #76B9F0. This was just an addition to the already existing navigation bar.
 
-Colour scheme was predetermined by the poster layouts that we have been using. Leaving the font colour to be only white and black with not much variation. 
+On screens bigger than 600px:
 
-Having one page dedicated to photos was a must to attract potential stallholders and visitors in general. 
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/ebd5d901-236d-4ea9-90b6-19247a11e23d)
 
-Highlighting when hovering over adds to the user experience by adding a layer of responsiveness.
+on screens smaller than 600px:
 
-Switching to a drop down menu, still following the same layout and animation when screen horizontal pixels changes to below 600px.
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/1ae83210-ef68-4fa4-947b-8167294f474e)
 
-![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/6ad54581-3ab7-4b6b-98d9-cfd003851212)
 
 
 **Header**
