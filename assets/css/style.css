@@ -564,7 +564,7 @@ label {
 /* footer */
 footer {
     background: rgb(118, 185, 240);
-    min-height: 25vh;
+    min-height: 15vh;
 }
 
 .socials {
