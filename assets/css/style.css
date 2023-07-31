@@ -341,7 +341,7 @@ nav .menu {
 /* stage show*/
 
 .stage {
-    background: url("/assets/images/staqe-fire.jpg") no-repeat;
+    background: url("../assets/images/staqe-fire.jpg") no-repeat;
     width: 100%;
     height: 40vh;
     background-size: cover;
