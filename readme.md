@@ -1,4 +1,12 @@
-﻿**The Eid festival**
+![Logo](![Eid fest logo](https://github.com/agunny/Eid-festival---Project/assets/133648178/7bf87d1b-2497-4dae-a3eb-91e94274b78b)
+)
+
+# Sheffield Eid Festival 2023
+
+This is a static website which can be update which refresh photos to advertise and support the Eid Festival held in Sheffield twice a year. This will be to show potential stall holders and sponsors the amount of footfall for these events and for them to get into contact with us or just attend the event before committing. Also to show visitors what there is to offer before attending.
+
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/1cabcb80-039a-4f7b-96d9-7ae4dd6b5be9)
+
 
 Being part of the Eid festival management team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has work for the past 2 years however we are growing in popularity and as being the biggest Eid festival in recent years in South Yorkshire. Recently starting our own Instagram page and advertising with our charity partner Families Relief, there are certain elements are lacking but are currently looking into. We aim to be a non-profit therefore we rely heavily on sponsors and stall the upfront costs of the first 1-2 have been immense. Buying gazebos and miscellaneous items that we can reuse are always a burden but the cost of the rides are something unavoidable and is 75% of our costs. 
 
