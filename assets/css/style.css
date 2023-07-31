@@ -171,7 +171,7 @@ nav .menu {
     margin-top: 20px;
 }
 
-.center .buttons button {
+.center .buttons a {
     text-decoration: none;
     height: 55px;
     width: 170px;
@@ -181,13 +181,13 @@ nav .menu {
     border: 2px solid white;
     font-size: 20px;
     font-weight: 500;
-    padding: 0 10px;
+    padding: 10px;
     cursor: pointer;
     outline: none;
     transition: all 0.3s ease;
 }
 
-.center .buttons button {
+.center .buttons a {
     color: #fff;
     background: none;
 }
@@ -197,9 +197,22 @@ nav .menu {
     color: inherit;
 }
 
-.buttons button:hover {
+.buttons a:hover {
     background: white;
     color: inherit;
+}
+
+@media (max-width: 600px) {
+    .center .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .center .button a {
+        text-align: center;
+
+    }
 }
 
 /* More section */
@@ -490,7 +503,6 @@ footer {
 }
 
 footer p {
-    text-align: auto;
     color: white;
 }
 
@@ -498,7 +510,6 @@ footer p {
     margin: auto;
     width: 25%;
     max-width: 6em;
-    padding-bottom: em;
 }
 
 .socials a:hover {
