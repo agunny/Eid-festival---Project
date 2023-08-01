@@ -6,25 +6,6 @@ This is a static website which can be updated which refresh photos to advertise 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Background
 
 Being part of the Eid festival management team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has worked for the past 2 years however we are growing in popularity and as being the biggest Eid festival in recent years in South Yorkshire, we draw crowds from as far as Birmingham! Our Previous event saw in excess of 10,000 people attend.<br>
@@ -53,18 +34,14 @@ I chose to use poppins font as it was clean, modern and upon a glace, subtly sty
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/38fc7f88-b088-44d8-af64-3d8c55858ed3)
 
 ## **Images**
-Since we've already got a decent stock of images from previous Eid Festival, I decided that using these images in the background, especially in the background, you can see many people. Flicking through the tabs there the general stalls, food stalls and rides in the background. Evidence of the amount of footfall at these events for potential future stall holders and sponsors. Add a blue overlay to these images to contiue with the theme of #76B9F0. Scrolling further through the site, there's more evidence of what's being provided in terms of children entertainment for our stage show. Filtering through and picking certain images as it shows a variety of people and children, all enjoying the shows on hand.<br>
-These images were all compressed using tingpng.com to maximise performance due to the high quality of the images.
+We've got a decent stockpile of images from the smaller events we did in the past. Therefore selecting images that best shows everthing we have on offer, froms food to rides.
+Adding a #76B9F0 filter over the top with a 80% opacity to continue the colour scheme for the landing images on pages. Tingpng.com was used to compress the images.
 
 ## **Features**
 
 ### **Navigation**
 
-Our logo fixed to the top left as well as bottom middle in the foot, both of which are linked to the main page as generally when using a website, the logos are always linked back. Having a clean and simple design was a priority due to a mixed aged range of visitors on the days, I knew that a lot of grandparents bring their grandchildren, therefore I wanted something that was simple and easy to follow. However, having the navigation bar fixed at the top posed an issue when the screen sized changed. I knew the default answer was to have the items change into a drop down menu, therefore I used the channel below to style and address the issue:
-
-<https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal>
-
-This was adapted to fit the colour scheme of the website, #76B9F0. This was just an addition to the already existing navigation bar.
+In the nav bar, I used a horizontal menu for the desktop view and a hamburger menu for the mobile view. Logo in the top right linked back to the index page.
 
 On screens bigger than 600px:
 
@@ -74,43 +51,28 @@ on screens smaller than 600px:
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/1ae83210-ef68-4fa4-947b-8167294f474e)
 
-
-
-**Header**
-
-Header font changes with the resolution of the screen to avoid the text becoming too large for the screen.
-
-The same animation used for buttons on the screen for quick navigation to the other tab, with location being used, linked further down the main page, for the main information.
-
-Background image used was from previous events held.
-
-All subsequent pages follow the same style with the navigation bar and the header above.
-
-Additional features for the future, to include a rolling background image/gif in the background to be more eye catching to users. Potentially sourced from the next Eid festival.
-
 **Footer**
 
-Footer includes links to the Instagram page, link the Families Facebook page where current advertising goes to, soon to be update with the Eid Festival Facebook page, as well as the Families relief website, our charity partner where all profits are donated to. 
+Footer includes links to the Instagram page, link the Families Facebook page where current advertising goes to, soon to be update with the Eid Festival Facebook page, as well as the Families relief website. Icons from Font awesome and "light" up when hovered over. Logo also linked to index page.
 
-Could add a separate space for sponsors either in the footer or above once terms and conditions have been applied to include such advertising.
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/5ce4e8c0-a537-4141-864f-b7c5b8029cf7)
 
-**Main article**
 
-Text changes colour to F0AD76 which is the complentary colour to the 76B9F0 as per <https://www.canva.com/colors/color-wheel/> . This links to the map location of the event. Also clicking on the location button in the header automatically scrolls to this point in the page. Map link included to show the area. Image used in the background from previous event.
+# **Pages breakdown**
+**Home**
+Brief description of the event, certain pictures selected to advertise to users. Location linked and date.  
 
 **Photos**
 
-Photos using in a grid layout to show evidence from the previous events. Hovering over the images zooms in also to add another dimension.
-
-Switches to 1 image at a time when viewed in a screen smaller than 600px horizontally.
+Photos from prior events, pictures selected to show the turnout, rides, stall and stage performances. Pictures animated to zoom slightly when hovered over to add user experience.
 
 **About us**
 
-Simple page discussing the history and goals of the Eid festival.
+Brief about us page to explain our story, goals, achievements.
 
 **Contact us/Submission form**
 
-` `Contact form for either getting involved with volunteering, enquiring about a stall or being a sponsor. More information to be distributed on contact.
+Contact form for either getting involved with volunteering, enquiring about a stall or being a sponsor. More information to be distributed on contact.
 
 Contact form to be filled out as necessary.
 
@@ -137,13 +99,17 @@ I also found that the size of the text and the spacing was made difficult to rea
 
 Margins on the right was showing a white bar when the screen resolution was small enough. This was found out to be the problem of the map inserted, therefore CSS styling was using to combat this was to change the overflow to scroll.
 
+**Future implementations**
+
+Instead of a still images in the background, I would like to implement a video/GIF in the background that’s constantly on replay. Maybe add a some feedback section.
+
 **Validator testing**
 
 HTML – no issues, warning however for genuine h1 heading.
 
 CSS – No issues found by W3C CSS Validation Service.
 
-Performance a little low due to high quality images used as background images.
+
 
 **Deployment**
 
