@@ -266,20 +266,6 @@ nav .menu {
     position: relative;
 }
 
-.map {
-    width: 100%;
-    height: auto;
-    overflow: none;
-}
-
-@media (max-width: 425px) {
-    .map {
-        width: 100%;
-        height: auto;
-        overflow: scroll;
-    }
-}
-
 .section-more {
     text-align: center;
 }
@@ -310,10 +296,22 @@ nav .menu {
 .time {
     text-align: center;
     font-size: clamp(1rem, 1rem + 5vw, 5rem);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-.map iframe {
+iframe {
     border-radius: 25px;
+}
+
+iframe {
+    width: 70vw;
+    height: 25vh;
+    margin: 25px;
+    filter: invert(100%);
 }
 
 .time a {
