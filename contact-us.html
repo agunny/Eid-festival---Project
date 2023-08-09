@@ -41,7 +41,7 @@
                     <h2>Want to get involved?
                         <br>Please contact us!
                     </h2>
-                    <form action="mailto:adam.gunny97@yahoo.co.uk" method="get">
+                    <form onsubmit="alert('Thank you for contacting us, we will get in contact with you shortly!');">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
             
@@ -59,7 +59,8 @@
                         <textarea id="comments" name="comments" rows="4"
                             placeholder="If enquiring about a stall, please read the terms and conditions below"></textarea>
             
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit"
+                        onsubmit="alert('Thank you for contacting us, we will get in contact with you shortly!');">
                     </form>
                 </div>
             </div>
