@@ -121,15 +121,65 @@ I deployed my website via the use of Github Pages. [https://pages.github.com/]
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/e393b8fb-75b9-473b-ae45-920336b87f3a)
 -passed
 
-
 #### CSS 
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/2074fe1f-7b52-4cb8-b214-98e24abf4fcb)
 -passed
 
+### Lighthouse
+
+#### Landing page
+
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/5efdc680-6058-41a9-8e26-a504247dc171)
+
+#### Photos page
+
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/f50388dc-fed3-4ccd-8bf4-8185a0901a56)
+
+#### About us page
+
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/b3bd255a-bf6a-48ca-b433-310110e64a92)
 
 
+#### Contact us page
 
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/fedacdfb-965b-4a3c-8a69-adc0b7c22125)
 
+### Real world testing
 
+Real world testing on a variety of devices:
 
+* Laptop:
+  * Alienware 15 R2
+  * Macbook Pro (15in 2018)
+  * Dell XPS 13 (9310)
+  * Dell Latitude (5300)
+* Mobile Devices:
+  * Iphone 10
+  * Iphone 14 Pro
+  * Samsung S23 Ultra
+  * Samsung Z Flip
+* Tablets
+  * Ipad Pro
+  * Samsung Tab S
+
+Tested using Samsung Interet, Safari, Google chrome (both mobile and desktop) and Edge.
+
+## Credits
+
+### Code used
+
+Nav bar styled from CodeNepal (https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal)
+
+Various tips and breakdowns on code used taken from the following websites:
+
+* https://developer.mozilla.org/en-US/
+* https://stackoverflow.com/
+* https://www.w3schools.com/
+* https://www.youtube.com/@WebDevSimplified
+* https://www.youtube.com/@TheWebShala
+* https://www.youtube.com/@KevinPowell
+
+### Media and Content
+
+As we host the events, I was able to take some time and take photos on the days. However, in the future we will be using a professional photographer to ensure high quality pictures and to potential produce videos. Both to posted on our Instagram account and website. Logo was produced by myself also. The text was also written by myself however the terms and conditions were taken from the Eid Festival Stall forms.
