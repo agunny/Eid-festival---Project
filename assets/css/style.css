@@ -78,7 +78,7 @@ nav .menu {
     color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 726px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -211,6 +211,10 @@ nav .menu {
     color: inherit;
 }
 
+.Row>h1 {
+    font-size: 4em;
+}
+
 @media (max-width: 600px) {
     .center .buttons {
         display: flex;
@@ -250,22 +254,18 @@ nav .menu {
         outline: none;
         transition: all 0.3s ease;
     }
+        .row {
+            font-size: 18px;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding: 1%;
+        }
+        .Row > h1 {
+            font-size: 1.5em;
+}
 
 }
 
-@media (max-width: 600px) {
-    .row {
-        font-size: 18px;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        padding: 1%;
-    }
-}
-
-
-.Row>h1 {
-    font-size: 4em;
-}
 
 /*Day-plan*/
 
