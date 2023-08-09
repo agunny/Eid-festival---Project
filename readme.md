@@ -177,7 +177,7 @@ Real world testing on a variety of devices:
   * Ipad Pro
   * Samsung Tab S
 
-Tested using Samsung Interet, Safari, Google chrome (both mobile and desktop) and Edge.
+Tested using Samsung Internet, Safari, Google chrome (both mobile and desktop) and Edge.
 
 ### Bugs
 
