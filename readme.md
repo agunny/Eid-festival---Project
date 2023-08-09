@@ -179,6 +179,14 @@ Real world testing on a variety of devices:
 
 Tested using Samsung Interet, Safari, Google chrome (both mobile and desktop) and Edge.
 
+### Bugs
+
+The embedded map wouldn’t shrink with the changing of screen resolution, this was resolved by adding changing the fixed width to a viewpoint width which would keep it all in a good ratio regardless of screen width.
+
+Images were being stretched and losing its clarity, also changing the spacing. I fixed this by display to block which centred the photos and increased the clarity of the image.
+
+
+
 ## <a id="credits"></a>Credits
 
 ### Code used
@@ -196,4 +204,4 @@ Various tips and breakdowns on code used taken from the following websites:
 
 ### Media and Content
 
-As we host the events, I was able to take some time and take photos on the days. However, in the future we will be using a professional photographer to ensure high quality pictures and to potential produce videos. Both to posted on our Instagram account and website. Logo was produced by myself also. The text was also written by myself however the terms and conditions were taken from the Eid Festival Stall forms.
+As we host the events, I was able to take some time and take photos on the days. However, in the future we will be using a professional photographer to ensure high quality pictures and to potential produce videos. Photos of the rides were supplied by the company hired. Both to posted on our Instagram account and website. Logo was produced by myself also. The text was also written by myself however the terms and conditions were taken from the Eid Festival Stall forms.
