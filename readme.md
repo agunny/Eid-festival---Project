@@ -8,14 +8,19 @@ This is a static website which can be updated which refresh photos to advertise 
 
 * [Background](#background)
 * [Goals](#goals)
+* [Colours and Typography](#colors)
+* [Images](#images)
+* [Features](#features)
+* [Pages Breakdown](#pages)
+* [Technologies Used](#tech)
+* [Credits](#Credits)
 
 
 
 
+## <a id="background"></a>Background
 
-## Background
-
-Being part of the Eid festival management team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has worked for the past 2 years however we are growing in popularity and as being the biggest Eid festival in recent years in South Yorkshire, we draw crowds from as far as Birmingham! Our Previous event saw in excess of 10,000 people attend.<br>
+Being part of thet team, we are in the early stages of bringing things together. Initially only focusing on advertising and running the event on the day. This has worked for the past 2 years however we are growing in popularity and as being the biggest Eid festival in recent years in South Yorkshire, we draw crowds from as far as Birmingham! Our Previous event saw in excess of 10,000 people attend.<br>
 Recently starting our own Instagram page and advertising with our charity partner Families Relief, there are certain elements are lacking but are currently looking into.<br>
 Since we have no official website, I decided that my project should be to create a website that reflects our efforts to advertise to the local community and give a place for potential store holders to register their interests. With the team, I went through ideas of my own and did some research as to what other people have done in the past.
 
@@ -36,7 +41,7 @@ We market this as the Eid Festival, however it's more of a family fun day for ev
 Poster from previous event:<br>
 ![Poster](https://github.com/agunny/Eid-festival---Project/assets/133648178/cc39440b-7537-4fa7-836c-44a0807709b6)
 
-## **Colours and Typography**
+## <a id="colors"></a> **Colours and Typography**
 
 Due to the previous designs of the posts and banners that we've used, it was already decided to use #76B9F0 has our main colour for background and overlays for images. Only white was text that would appear clearly on the foreground.
 The complementary colour tone being #FOAD76, making things that have been hovered over to change to that colour to keep it standing out and for the change to be noticeable:
@@ -45,7 +50,7 @@ The complementary colour tone being #FOAD76, making things that have been hovere
 I chose to use poppins font as it was clean, modern and upon a glace, subtly styled.
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/38fc7f88-b088-44d8-af64-3d8c55858ed3)
 
-## **Images**
+## <a id="images"></a>**Images**
 
 We've got a decent stockpile of images from the smaller events we did in the past. Therefore selecting images that best shows everthing we have on offer, froms food to rides.
 Adding a #76B9F0 filter over the top with a 80% opacity to continue the colour scheme for the landing images on pages. Tingpng.com was used to compress the images.
@@ -70,7 +75,7 @@ Footer includes links to the Instagram page, link the Families Facebook page whe
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/5ce4e8c0-a537-4141-864f-b7c5b8029cf7)
 
-# **Pages breakdown**
+# <a id="pages"></a>**Pages breakdown**
 
 ### Landing page
 
@@ -102,7 +107,7 @@ The contact us page is immediate met with a contact form as previous, we’ve re
 
 In the future, I would like experiment with having a slideshow as the background image on the landing page to scroll through a few different images as opposed to a single static image, maybe changing it to a video entirely.
 
-## Technologies Used
+## <a id="tech"></a>Technologies Used
 
 **Github** - Used for storage of my site and for publishing online.\
 **Codeanywhere** - The IDE used for editing my site and pushing changes.\
@@ -174,7 +179,7 @@ Real world testing on a variety of devices:
 
 Tested using Samsung Interet, Safari, Google chrome (both mobile and desktop) and Edge.
 
-## Credits
+## <a id="credits"></a>Credits
 
 ### Code used
 
