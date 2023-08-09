@@ -4,13 +4,13 @@ This is a static website which can be updated which refresh photos to advertise 
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/1cabcb80-039a-4f7b-96d9-7ae4dd6b5be9)
 
-<<<<<<< HEAD
-=======
 ## Contents
 
 * [Background](#background)
 * [Goals](#goals)
->>>>>>> 15a7513 (changes to readme)
+
+
+
 
 
 ## Background
@@ -19,21 +19,25 @@ Being part of the Eid festival management team, we are in the early stages of br
 Recently starting our own Instagram page and advertising with our charity partner Families Relief, there are certain elements are lacking but are currently looking into.<br>
 Since we have no official website, I decided that my project should be to create a website that reflects our efforts to advertise to the local community and give a place for potential store holders to register their interests. With the team, I went through ideas of my own and did some research as to what other people have done in the past.
 
-## Goals
-### Attract new business
-One of our ways of supporting the Eid Festival is to get local business to sponsor the events, with seeing the amount of footfall from previous events and the new spreading by word of mouth, having a centralised location where all the information and evidence is available means that everyone has a chance.
-### Bring the community together
-After Covid, normality was out the window. Eid fell just after the covid restrictions were lifted so we decided to do something to bring everyone together. Especially for the younger generation, in which the majority of their lives were revolving around masks and staying at home.
-### A day of fun for everyone
-We market this as the Eid Festival, however it's more of a family fun day for everyone, regardless of race, religion and age. One of the most infectious sights and sounds are young children laughing and having fun. It has a positive effect on everyone. It makes these events worth it to see everyone getting involved!
+## <a id="goals"></a>Goals
 
+### Attract new business
+
+One of our ways of supporting the Eid Festival is to get local business to sponsor the events, with seeing the amount of footfall from previous events and the new spreading by word of mouth, having a centralised location where all the information and evidence is available means that everyone has a chance.
+
+### Bring the community together
+
+After Covid, normality was out the window. Eid fell just after the covid restrictions were lifted so we decided to do something to bring everyone together. Especially for the younger generation, in which the majority of their lives were revolving around masks and staying at home.
+
+### A day of fun for everyone
+
+We market this as the Eid Festival, however it's more of a family fun day for everyone, regardless of race, religion and age. One of the most infectious sights and sounds are young children laughing and having fun. It has a positive effect on everyone. It makes these events worth it to see everyone getting involved!
 
 Poster from previous event:<br>
 ![Poster](https://github.com/agunny/Eid-festival---Project/assets/133648178/cc39440b-7537-4fa7-836c-44a0807709b6)
 
-
-
 ## **Colours and Typography**
+
 Due to the previous designs of the posts and banners that we've used, it was already decided to use #76B9F0 has our main colour for background and overlays for images. Only white was text that would appear clearly on the foreground.
 The complementary colour tone being #FOAD76, making things that have been hovered over to change to that colour to keep it standing out and for the change to be noticeable:
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/050061da-d35a-4a2e-89aa-1d624fc6a4be)
@@ -42,6 +46,7 @@ I chose to use poppins font as it was clean, modern and upon a glace, subtly sty
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/38fc7f88-b088-44d8-af64-3d8c55858ed3)
 
 ## **Images**
+
 We've got a decent stockpile of images from the smaller events we did in the past. Therefore selecting images that best shows everthing we have on offer, froms food to rides.
 Adding a #76B9F0 filter over the top with a 80% opacity to continue the colour scheme for the landing images on pages. Tingpng.com was used to compress the images.
 
@@ -65,7 +70,6 @@ Footer includes links to the Instagram page, link the Families Facebook page whe
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/5ce4e8c0-a537-4141-864f-b7c5b8029cf7)
 
-
 # **Pages breakdown**
 
 ### Landing page
@@ -84,14 +88,13 @@ The photos page has a different background image from a different perspective of
 
 ### About us
 
-The about us page has a brief introduction as to who we are and what we are trying to accomplish. 
+The about us page has a brief introduction as to who we are and what we are trying to accomplish.
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/d589ecc4-6bc1-4728-b0d5-1101b69c9e3b)
 
 ### Contact us
 
 The contact us page is immediate met with a contact form as previous, we’ve relied on gathering the information personally, being able to centralise the process would allow us to ensure that people are being dealt with in a timely manner as well as being able to be seen by the group. This avoids confusion and will help streamline the process. Beneath also contains some more information on the terms and conditions.
-
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/ca31b1b0-4cf2-4993-828b-5de266d86ffb)
 
@@ -128,7 +131,7 @@ I deployed my website via the use of Github Pages. [https://pages.github.com/]
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/e393b8fb-75b9-473b-ae45-920336b87f3a)
 -passed
 
-#### CSS 
+#### CSS
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/2074fe1f-7b52-4cb8-b214-98e24abf4fcb)
 -passed
@@ -146,7 +149,6 @@ I deployed my website via the use of Github Pages. [https://pages.github.com/]
 #### About us page
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/b3bd255a-bf6a-48ca-b433-310110e64a92)
-
 
 #### Contact us page
 
@@ -176,16 +178,16 @@ Tested using Samsung Interet, Safari, Google chrome (both mobile and desktop) an
 
 ### Code used
 
-Nav bar styled from CodeNepal (https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal)
+Nav bar styled from CodeNepal (<https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal>)
 
 Various tips and breakdowns on code used taken from the following websites:
 
-* https://developer.mozilla.org/en-US/
-* https://stackoverflow.com/
-* https://www.w3schools.com/
-* https://www.youtube.com/@WebDevSimplified
-* https://www.youtube.com/@TheWebShala
-* https://www.youtube.com/@KevinPowell
+* <https://developer.mozilla.org/en-US/>
+* <https://stackoverflow.com/>
+* <https://www.w3schools.com/>
+* <https://www.youtube.com/@WebDevSimplified>
+* <https://www.youtube.com/@TheWebShala>
+* <https://www.youtube.com/@KevinPowell>
 
 ### Media and Content
 
