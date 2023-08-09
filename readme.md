@@ -22,8 +22,9 @@ We market this as the Eid Festival, however it's more of a family fun day for ev
 
 
 Poster from previous event:<br>
-<img src="![Poster](https://github.com/agunny/Eid-festival---Project/assets/133648178/79db9da3-b974-4451-8fc2-f8cb51418086)
-" height="500" width="320" >
+![Poster](https://github.com/agunny/Eid-festival---Project/assets/133648178/cc39440b-7537-4fa7-836c-44a0807709b6)
+
+
 
 ## **Colours and Typography**
 Due to the previous designs of the posts and banners that we've used, it was already decided to use #76B9F0 has our main colour for background and overlays for images. Only white was text that would appear clearly on the foreground.
@@ -59,90 +60,76 @@ Footer includes links to the Instagram page, link the Families Facebook page whe
 
 
 # **Pages breakdown**
-**Home**
-Brief description of the event, certain pictures selected to advertise to users. Location linked and date.  
 
-**Photos**
+### Landing page
 
-Photos from prior events, pictures selected to show the turnout, rides, stall and stage performances. Pictures animated to zoom slightly when hovered over to add user experience.
+The landing page includes a background image of our previous event, showing the turn out with the views in the distance, rides and amount of footfall, intentionally done to give the users the impact the event has on the community.
 
-**About us**
+Scrolling reveals a section with a brief introduction, as well as a link to the next location and a map embedded via google maps. The link also changes colour when hovered over to indicate a clickable link.
 
-Brief about us page to explain our story, goals, achievements.
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/e678309d-9960-439c-b4e0-38cb2ce59fb2)
 
-**Contact us/Submission form**
+### Photos page
 
-Contact form for either getting involved with volunteering, enquiring about a stall or being a sponsor. More information to be distributed on contact.
+The photos page has a different background image from a different perspective of the previous event. Images are all from previous events, showing rides, stages shows and turnout on the day. All photos zoom in upon hovering, images can be updated in the future to show progression.
 
-Contact form to be filled out as necessary.
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/aa1f9f08-ae70-4b40-9fc0-da5a85dca327)
 
-**Testing**
+### About us
 
-Website testing among a range of resolutions to ensure compatibility across mobile phones and desktop browsers alike.
+The about us page has a brief introduction as to who we are and what we are trying to accomplish. 
 
-Picked 600pixel horizontally to be the default resolution for the drop-down menu to appear as this is the “contact us” page defaults over 2 lines instead of staying as one.
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/d589ecc4-6bc1-4728-b0d5-1101b69c9e3b)
 
-Confirmed for the buttons on the header to stack depending on the size of the screen.
+### Contact us
 
-Images on the photos page when viewed in a smaller screen cut the image size too much, moving them to a 1 by 1 image type and then potentially in the future using a different image type/compressing the image to maintain image quality but improving responsiveness when loading the page.
-
-Adding in a drop-down menu for the navigation bar was necessary to ensure that the navbar is always visible regardless of the screen size. Slight teething issues when scaling the resolution down more, the displacement of 100% wasn’t enough to keep it off the screen when checking, had to increase and test to ensure it wouldn’t be visible. Also changing the font size to keep it in check with the about of space on screen.
-
-Potentially adding a link to the terms and conditions pages for the PDF versions, however due to having personal information on their, will need reworking before deploying.
+The contact us page is immediate met with a contact form as previous, we’ve relied on gathering the information personally, being able to centralise the process would allow us to ensure that people are being dealt with in a timely manner as well as being able to be seen by the group. This avoids confusion and will help streamline the process. Beneath also contains some more information on the terms and conditions.
 
 
-**Bugs**
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/ca31b1b0-4cf2-4993-828b-5de266d86ffb)
 
-I found that when linking images, the image files must not have spaces as it causes it to flag as a problem, solved by including dashes instead of spaces.
+### Future Implementations
 
-I also found that the size of the text and the spacing was made difficult to read as it the page would split words depending on the resolution, therefore, to fix this included percentages where I could and clamp attribute when deciding a font size to ensure that the sizing remained appropriate for the resolution. 
+In the future, I would like experiment with having a slideshow as the background image on the landing page to scroll through a few different images as opposed to a single static image, maybe changing it to a video entirely.
 
-Margins on the right was showing a white bar when the screen resolution was small enough. This was found out to be the problem of the map inserted, therefore CSS styling was using to combat this was to change the overflow to scroll.
+## Technologies Used
 
-**Future implementations**
+**Github** - Used for storage of my site and for publishing online.\
+**Codeanywhere** - The IDE used for editing my site and pushing changes.\
+**Python** - Used python 3 via terminal to preview my site using a local http server.\
+**HTML5** - The core of the site was built with HTML version 5.\
+**CSS** - CSS was used to style the website and define fonts and layout.\
+**Bootstrap** - Bootstrap was used to align items and create items such as the navigation bar, images, forms etc.\
+**Google Maps** - Google maps embed from Google inc.\
+**Font Awesome** - Social Media icons from Font Awesome.\
+**Google Chrome** - The website was built and tested in google Chrome.
 
-Instead of a still images in the background, I would like to implement a video/GIF in the background that’s constantly on replay. Maybe add a some feedback section.
+### Languages Used
 
-**Validator testing**
+HTML and CSS.
 
-HTML – no issues, warning however for genuine h1 heading.
+### Deployment
 
-CSS – No issues found by W3C CSS Validation Service.
+I deployed my website via the use of Github Pages. [https://pages.github.com/]
+
+## Testing
+
+### W3C testing
+
+#### HTML
+
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/e393b8fb-75b9-473b-ae45-920336b87f3a)
+-passed
+
+
+#### CSS 
+
+![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/2074fe1f-7b52-4cb8-b214-98e24abf4fcb)
+-passed
 
 
 
-**Deployment**
-
-Deployed to github, accessible here:
-
-<https://github.com/agunny/Eid-festival---Project>
 
 
-**Credits**
 
-Nav bar styled from:
-
-<https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal>
-
-Information regarding attributes were taken from:
-
-<https://developer.mozilla.org/en-US/>
-
-<https://stackoverflow.com/>
-
-<https://www.w3schools.com/>
-
-Many tutorials followed from:
-
-<https://www.youtube.com/@WebDevSimplified>
-
-<https://www.youtube.com/@TheWebShala>
-
-<https://www.youtube.com/@KevinPowell>
-
-**Media**
-
-Images taken by myself from previous Eid festivals. 
-
-Icons were taken from [Font-Awesome](https://fontawesome.com/)
 
