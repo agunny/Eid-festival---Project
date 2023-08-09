@@ -4,6 +4,13 @@ This is a static website which can be updated which refresh photos to advertise 
 
 ![image](https://github.com/agunny/Eid-festival---Project/assets/133648178/1cabcb80-039a-4f7b-96d9-7ae4dd6b5be9)
 
+<<<<<<< HEAD
+=======
+## Contents
+
+* [Background](#background)
+* [Goals](#goals)
+>>>>>>> 15a7513 (changes to readme)
 
 
 ## Background
